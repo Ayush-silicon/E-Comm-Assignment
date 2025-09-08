@@ -22,7 +22,7 @@ const itemSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    default: 'https://via.placeholder.com/300x200'
+    default: 'https://unsplash.com/s/photos/e-commerce-product'
   },
   inStock: {
     type: Boolean,
